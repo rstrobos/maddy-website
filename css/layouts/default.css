@@ -44,7 +44,7 @@ p {
  * vertically center the text.
  */
 .banner {
-    background: transparent url('http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg') 0 0 no-repeat fixed;
+    background: transparent url('http://distilleryimage2.ak.instagram.com/3e856b8c517711e391b41276bce0956a_8.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
     height: 350px;
@@ -58,7 +58,7 @@ p {
         vertical-align: middle;
         margin-bottom: 0;
         font-size: 4em;
-        color: white;
+        color: red;
         font-weight: 500;
         text-shadow: 0 1px 1px black;
     }
@@ -94,11 +94,13 @@ p {
  * Choose a different color based on the type of pricing table.
  */
 .pricing-table-free .pricing-table-header {
-    background: #519251;
+    background: transparent url('file:///Users/rstrobos/Desktop/Maddy\ Website/images/artist3.jpg');
+    background-size: contain;
 }
 
 .pricing-table-biz .pricing-table-header {
-    background: #2c4985;
+    background: transparent url('file:///Users/rstrobos/Desktop/Maddy\ Website/images/artist2.jpg');
+    background-size: contain;
 }
 
 /*
@@ -106,7 +108,8 @@ p {
  * By default, a header is black/white, and has some styles for its <h2> name.
  */
 .pricing-table-header {
-    background: #111;
+    background: transparent url('file:///Users/rstrobos/Desktop/Maddy\ Website/images/artist1.jpg');
+    background-size: contain;
     color: #fff;
 }
     .pricing-table-header h2 {
@@ -126,6 +129,7 @@ p {
     font-size: 6em;
     margin: 0.2em 0 0;
     font-weight: 100;
+    opacity: 0
 }
     .pricing-table-price span {
         display: block;
